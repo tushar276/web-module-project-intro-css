@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background:#DDB9A3;
+	line-height: 1;
+	color: black;
+
+    font-family: 'Roboto Mono', monospace;
+	}
+ol, ul {
+    
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+nav {
+    width: auto;
+}
+
+.navigation-tab {
+    box-sizing:border-box;
+    border-radius: 10px; 
+    background-color: orange;
+    margin: 0 auto;
+    width: auto;
+    padding: 10px;
+    line-height: 5;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.bluebkgd {
+    background-color: #5ED3EB;
+}
+
+.orangebkgd {
+    background-color: #FF764E;
+}
+
+.yellowbkgd {
+    background-color: #FFCD69;
+}
+
+.header-img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+footer {
+    background-color:#F9E7DC;
+
+}
+.footer-img {
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    
+
+}
+.fireball-img
+{
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    
+}
+.bus-img
+{
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    
+}
+.center-section {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+}
+.center-section > p {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+.bold 
+{ 
+    font-family: 'Chelsea Market';
+    font-size: 36px;
+}
+.mycolor
+{ color:white;
+padding: 5px; }
+
+.myheader
+{
+    display: flex;
+    background-color: whitesmoke;
+}
+.header-info {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
